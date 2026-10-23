@@ -30,17 +30,18 @@ overcast,64.0,65.0,false,yes
 sunny,72.0,95.0,true,no 
 sunny,69.0,70.0,false,yes 
 rainy,75.0,80.0,false,yes
+```
 3)	After that the file is saved with .arff file format.
 4)	Minimize the arff file and then open Start  Programs  weka-3-4.
 5)	Click on weka-3-4, then Weka dialog box is displayed on the screen.
 6)	In that dialog box there are four modes, click on explorer.
 7)	Explorer shows many options. In that click on ‘open file’ and select the arff file
 8)	Click on edit button which shows weather table on weka.
- 
+
 Training Data Set  Employee Table
 <img width="735" height="786" alt="image" src="https://github.com/user-attachments/assets/9c0dd364-f03c-4215-959c-7ca5b3589abf" />
 
-
+```
 Add  Pre-Processing Technique:
 Procedure:
 1)	Start  Programs  Weka-3-4  Weka-3-4
@@ -57,11 +58,12 @@ Procedure:
 12)	Press the Apply button, then a new attribute is added to the Weather Table.
 13)	Save the file.
 14)	Click on the Edit button, it shows a new Weather Table on Weka.
- 
+``` 
 Weather Table after adding new attribute CLIMATE:
-<img width="743" height="798" alt="image" src="https://github.com/user-attachments/assets/cb228082-7f65-4656-8f7a-19d2532ad596" />
+<img width="802" height="486" alt="image" src="https://github.com/user-attachments/assets/07cb32f4-0168-4f7e-88c7-8d0ebb2b461e" />
 
- 
+
+ ```
 Remove  Pre-Processing Technique:
 Procedure:
 1)	Start  Programs  Weka-3-4  Weka-3-4
@@ -75,10 +77,11 @@ Procedure:
 9)	Select the attributes windy, play to Remove.
 10)	Click Remove button and then Save.
 11)	Click on the Edit button, it shows a new Weather Table on Weka.
- 
+ ```
 Weather Table after removing attributes WINDY, PLAY:
-<img width="732" height="787" alt="image" src="https://github.com/user-attachments/assets/bb3297fa-85a7-44aa-8812-5f0d16ff0e59" />
+<img width="926" height="376" alt="image" src="https://github.com/user-attachments/assets/ff151fcd-4bbb-453c-ad19-789bca9a9f05" />
 
+```
 Normalize  Pre-Processing Technique:
 Procedure:
 1)	Start  Programs  Weka-3-4  Weka-3-4
@@ -92,50 +95,9 @@ Procedure:
 9)	Select the attributes temparature, humidity to Normalize.
 10)	Click on Apply button and then Save.
 11)	Click on the Edit button, it shows a new Weather Table with normalized values on Weka.
- 
+``` 
 Weather Table after Normalizing TEMPARATURE, HUMIDITY:
-<img width="733" height="786" alt="image" src="https://github.com/user-attachments/assets/7160dfeb-d2dd-4550-8907-1cd3505dc2d0" />
-
- 
-Output:
-Adding Climate as an attribute to the table
-
-<img width="941" height="568" alt="image" src="https://github.com/user-attachments/assets/1b24a184-a93e-40e8-befd-a8e574eaac4e" />
-
-Removing windy and play attributes from the table.
-<img width="923" height="558" alt="image" src="https://github.com/user-attachments/assets/2d9b736d-28cc-4806-b44a-ac0b1c74b304" />
-
- 
-Normalization of attributes
-
-
-<img width="941" height="568" alt="image" src="https://github.com/user-attachments/assets/4bba5a69-75fc-4f9a-a359-14a2c8025c70" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="953" height="322" alt="image" src="https://github.com/user-attachments/assets/d5e58178-8290-463d-bebe-3a008dd0b31b" />
 
 
 
